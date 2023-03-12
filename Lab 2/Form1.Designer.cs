@@ -30,7 +30,6 @@ namespace Lab_2
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.AnT = new OpenTK.GLControl();
             this.PointInGrap = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
@@ -67,8 +66,6 @@ namespace Lab_2
         }
 
         #endregion
-
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private OpenTK.GLControl AnT;
         private System.Windows.Forms.Timer PointInGrap;
     }
