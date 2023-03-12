@@ -38,11 +38,11 @@ namespace Lab_2
             // AnT
             // 
             this.AnT.BackColor = System.Drawing.Color.Black;
-            this.AnT.Location = new System.Drawing.Point(0, -5);
+            this.AnT.Location = new System.Drawing.Point(0, 1);
             this.AnT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.AnT.Name = "AnT";
             this.AnT.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.AnT.Size = new System.Drawing.Size(1019, 614);
+            this.AnT.Size = new System.Drawing.Size(1019, 608);
             this.AnT.TabIndex = 0;
             this.AnT.VSync = false;
             this.AnT.Load += new System.EventHandler(this.AnT_Load);
@@ -57,7 +57,7 @@ namespace Lab_2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1020, 528);
+            this.ClientSize = new System.Drawing.Size(1020, 555);
             this.Controls.Add(this.AnT);
             this.Name = "Form1";
             this.Text = "Form1";
