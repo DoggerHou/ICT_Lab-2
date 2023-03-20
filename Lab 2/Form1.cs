@@ -51,14 +51,14 @@ namespace Lab_2
 
         private void AnT_MouseMove(object sender, MouseEventArgs e)
         {
-            //Сохраняем кординаты мыши\
+            //Сохраняем кординаты мыши
             Mcoord_X = e.X;
             Mcoord_Y = e.Y;
 
             //Вычисляем параметры для будущей дорисовки линий от указателя мыши к 
             //координатным осям
-            lineX = devX * e.X;
-            lineY = (float)(ScreenH - devY * e.Y);
+            lineX = (float)(ScreenW / ScreenH) * devX * e.X;
+            lineY = (float)(ScreenH - devY * e.Y * (float)(ScreenH /ScreenW));
         }
 
         private void Form1_Load(object sender, EventArgs e)
